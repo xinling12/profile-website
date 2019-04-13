@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Ubuntu');
+
+.page-wrapper {
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    background: transparent;
+    flex-direction: row;
+    justify-content: space-between; 
+    /* position: fixed; */
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+}
+
+.resume-name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    margin: 30px;
+}
+.upper-content .surname{
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;  
+}
+
+li a{
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'Muli', sans-serif;
+    color:black;
+    font-size: 18px;
+}
+.resume-links{
+    display: inline-flex;
+    margin: 30px;
+    color: black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: transparent;
+    z-index: -1;
+    
+}
+
+.upper-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2eca7f;
+    
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+    height: auto;
+    border: 0;
+}
+
+.profile-photo {
+    z-index: 1;
+    margin-top: 30px;
+    margin-bottom: -32px;
+    border: 2px solid white;
+}
+
+.basic-info {
+    padding: 22px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p.postion {
+    font-size: 18px;
+}
+h1 {
+    margin-bottom: 0px;
+} 
+
+.lower-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:25px;
+}
+
+.personal-description {
+    
+    width:50%;
+}
+
+.detailed-info {
+    text-align: left;
+    display: inline-block;
+}
+
+.detailed-info li{
+    display: block;
+    margin: 12px;
+}
+
+span.attribute {
+    display: inline-block;
+    min-width: 120px;
+}
+
+span.age-value {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
